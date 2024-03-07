@@ -23,6 +23,7 @@ export function getStaticPaths() {
       { params: { id: 'a' } },
       { params: { id: 'b' } },
       { params: { id: 'c' } },
+      { params: { id: 'Boulamakandine' } },
     ],
     fallback: false,
   }
