@@ -24,8 +24,8 @@ function toHex(arrayBuffer) {
 }
 
 export default async function handler(req: NextRequest) {
-  const { searchParams } = req.nextUrl
-
+  const { searchParams } = req.nextUrl;
+  console.log(req.headers)
   const id = searchParams.get('id')
   const token = searchParams.get('token')
 
