@@ -71,10 +71,10 @@ export default function handler(req: NextRequest) {
               </div>
               <div
                   style={{
-                      fontSize: 50,
+                      fontSize: 65,
                       fontStyle: 'normal',
                       letterSpacing: '-0.025em',
-                      color: 'white',
+                      color: '#EA580C',
                       padding: '0 120px',
                       textShadow: '1px 1px 2px black',
                       lineHeight: 1.2,
